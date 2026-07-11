@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Popular Dishes | Feastify</title>
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+
+    <link rel="stylesheet" href="../css/popular.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+
+<body>
+
+
+
+<div id="preloader">
+
+    <div class="loader-content">
+
+        <div class="burger-loader">
+
+            <img src="../assets/images/burger.png" alt="Burger">
+
+        </div>
+
+        <h1 class="loader-logo">
+
+            Feast<span>ify</span>
+
+        </h1>
+
+        <p>
+
+            Preparing something delicious...
+
+        </p>
+
+        <div class="loading-bar">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="background">
+
+    
+
+    <span class="blob blob1"></span>
+
+    <span class="blob blob2"></span>
+
+    <span class="blob blob3"></span>
+
+    <span class="blob blob4"></span>
+
+    
+
+    <div class="particles">
+
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+
+    </div>
+
+    
+
+    <div class="grid"></div>
+
+</div>
+
+
+
+<header>
+
+    
+
+    <nav class="navbar">
+
+        
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">🍽</span>
+
+            <span class="logo-text">
+
+                Feast<span>ify</span>
+
+            </span>
+
+        </a>
+
+        
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="index.html">
+
+                    Home
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="menu.html" class="active">
+
+                    Menu
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="restaurants.html">
+
+                    Restaurants
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="offers.html">
+
+                    Offers
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="contact.html">
+
+                    Contact
+
+                </a>
+
+            </li>
+
+        </ul>
+
+        
+
+        <div class="nav-right">
+
+            <a href="login.html" class="login-btn">Login</a>
+
+            <a href="cart.html" class="cart-btn">
+            🛒 <span>02</span>
+
+            </a>
+
+            
+
+            <button class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<section class="popular-hero">
+
+    <div class="hero-container">
+
+        
+
+        <div class="hero-left">
+
+            <div class="hero-badge">
+
+                <span class="badge-dot"></span>
+
+                🔥 Trending Dishes
+
+            </div>
+
+            <h1>
+
+                Most Loved
+
+                <span>By Foodies</span>
+
+            </h1>
+
+            <p>
+
+                Discover the meals thousands of customers order every day.
+                Fresh ingredients, premium taste, award-winning recipes,
+                and lightning-fast delivery from the city's best restaurants.
+
+            </p>
+
+            
+
+            <div class="hero-search">
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="searchFood"
+                        placeholder="Search burgers, pizza, drinks..."
+                    >
+
+                </div>
+
+                <button class="search-btn">
+
+                    Search
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+            
+
+            <div class="hero-stats">
+
+                <div class="stat-card">
+
+                    <h3>25K+</h3>
+
+                    <span>Orders Daily</span>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h3>4.9★</h3>
+
+                    <span>Average Rating</span>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h3>250+</h3>
+
+                    <span>Premium Dishes</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="hero-right">
+
+            
+
+            <div class="hero-circle">
+
+                <img
+                    src="../assets/images/burger.png"
+                    alt="Premium Burger"
+                    class="main-food"
+                >
+
+            </div>
+
+            
+
+            <div class="floating-card card1">
+
+                <img
+                    src="../assets/images/pizza.png"
+                    alt="Pizza"
+                >
+
+                <div class="card-content">
+
+                    <h4>Italian Pizza</h4>
+
+                    <span>
+
+                        <i class="fa-solid fa-star"></i>
+
+                        4.9 Rating
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="floating-card card2">
+
+                <img
+                    src="../assets/images/chicken.png"
+                    alt="Chicken"
+                >
+
+                <div class="card-content">
+
+                    <h4>Crispy Chicken</h4>
+
+                    <span>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        18 min Delivery
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="floating-card card3">
+
+                <img
+                    src="../assets/images/juice.png"
+                    alt="Fresh Juice"
+                >
+
+                <div class="card-content">
+
+                    <h4>Fresh Juice</h4>
+
+                    <span>
+
+                        <i class="fa-solid fa-leaf"></i>
+
+                        100% Natural
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            
+
+            
+
+            
+
+            <div class="hero-glow"></div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="scroll-indicator">
+
+        <span>
+
+            Scroll to Explore
+
+        </span>
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">
+            EXPLORE MENU
+        </span>
+
+        <h2>
+
+            Browse By
+
+            <span>Category</span>
+
+        </h2>
+
+        <p>
+
+            Choose your favorite cuisine and instantly discover
+            the most loved dishes prepared by our premium restaurants.
+
+        </p>
+
+    </div>
+
+    
+
+    <div class="food-categories">
+
+        <button class="food-filter active"
+                data-filter="all">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <span>All</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="burger">
+
+            <i class="fa-solid fa-burger"></i>
+
+            <span>Burgers</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="pizza">
+
+            <i class="fa-solid fa-pizza-slice"></i>
+
+            <span>Pizza</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="chicken">
+
+            <i class="fa-solid fa-drumstick-bite"></i>
+
+            <span>Chicken</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="pasta">
+
+            🍝
+
+            <span>Pasta</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="healthy">
+
+            🥗
+
+            <span>Healthy</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="drinks">
+
+            🥤
+
+            <span>Drinks</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="dessert">
+
+            🍰
+
+            <span>Desserts</span>
+
+        </button>
+
+    </div>
+
+    
+
+    <div class="category-info">
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-fire"></i>
+
+            <div>
+
+                <h4>Trending Today</h4>
+
+                <span>150+ Popular Meals</span>
+
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-star"></i>
+
+            <div>
+
+                <h4>Top Rated</h4>
+
+                <span>Premium Restaurants</span>
+
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <div>
+
+                <h4>Fast Delivery</h4>
+
+                <span>15–25 Minutes</span>
+
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-tag"></i>
+
+            <div>
+
+                <h4>Daily Offers</h4>
+
+                <span>Up to 50% OFF</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<div class="food-grid">
+    
+
+<div class="food-card" data-category="burger">
+
+    <span class="food-badge">
+        🔥 Bestseller
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/burger2.png"
+        alt="Double Cheese Burger"
+        class="food-image"
+    >
+
+    <h3>Double Cheese Burger</h3>
+
+    <p>
+        Juicy grilled beef patty layered with cheddar,
+        lettuce, tomatoes and Feastify special sauce.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.9
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            18 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹249</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="pizza">
+
+    <span class="food-badge new">
+        NEW
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/pizza2.png"
+        alt="Pepperoni Pizza"
+        class="food-image"
+    >
+
+    <h3>Pepperoni Pizza</h3>
+
+    <p>
+        Stone baked pizza topped with mozzarella,
+        pepperoni and authentic Italian herbs.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.8
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            22 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹399</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="chicken">
+
+    <span class="food-badge spicy">
+        SPICY
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/chicken.png"
+        alt="Crispy Chicken"
+        class="food-image"
+    >
+
+    <h3>Crispy Chicken</h3>
+
+    <p>
+        Crunchy fried chicken coated with our
+        signature spicy seasoning and herbs.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.7
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            20 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹329</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="pasta">
+
+    <span class="food-badge">
+        • Popular
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/pasta2.png"
+        alt="Creamy Alfredo Pasta"
+        class="food-image"
+    >
+
+    <h3>Creamy Alfredo Pasta</h3>
+
+    <p>
+        Rich parmesan cream sauce blended with
+        herbs and perfectly cooked Italian pasta.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.8
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            19 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹279</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+<div class="food-card" data-category="healthy">
+
+    <span class="food-badge new">
+        HEALTHY
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/healthy2.png"
+        alt="Healthy Salad Bowl"
+        class="food-image"
+    >
+
+    <h3>Healthy Salad Bowl</h3>
+
+    <p>
+        Fresh lettuce, avocado, cherry tomatoes,
+        olives, cucumber and roasted vegetables.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.9
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            15 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹229</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="drinks">
+
+    <span class="food-badge">
+        FRESH
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/drinks2.png"
+        alt="Fresh Orange Juice"
+        class="food-image"
+    >
+
+    <h3>Fresh Orange Juice</h3>
+
+    <p>
+        Cold pressed oranges blended with mint,
+        ice cubes and zero added sugar.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.8
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            10 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹149</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="dessert">
+
+    <span class="food-badge">
+        CHEF'S PICK
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/desserts.png"
+        alt="Chocolate Lava Cake"
+        class="food-image"
+    >
+
+    <h3>Chocolate Lava Cake</h3>
+
+    <p>
+        Warm chocolate cake with molten center,
+        served with creamy vanilla ice cream.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.9
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            12 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹199</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card" data-category="drinks">
+
+    <span class="food-badge spicy">
+        HOT
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/drinks4.png"
+        alt="Strawberry Milkshake"
+        class="food-image"
+    >
+
+    <h3>Strawberry Milkshake</h3>
+
+    <p>
+        Thick creamy strawberry milkshake topped
+        with whipped cream and chocolate flakes.
+    </p>
+
+    <div class="food-info">
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            4.8
+        </span>
+
+        <span>
+            <i class="fa-regular fa-clock"></i>
+            8 min
+        </span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹179</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+<div class="food-card hidden-card" data-category="burger">
+
+    <span class="food-badge">
+        HOT
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/burger4.png"
+        alt="Veg Supreme Burger"
+        class="food-image"
+    >
+
+    <h3>Veg Supreme Burger</h3>
+
+    <p>
+        Loaded with crispy vegetables, cheddar cheese,
+        lettuce and Feastify signature sauce.
+    </p>
+
+    <div class="food-info">
+
+        <span><i class="fa-solid fa-star"></i>4.8</span>
+
+        <span><i class="fa-regular fa-clock"></i>16 min</span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹189</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card hidden-card" data-category="pizza">
+
+    <span class="food-badge new">
+        NEW
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/pizza4.png"
+        alt="Farmhouse Pizza"
+        class="food-image"
+    >
+
+    <h3>Farmhouse Pizza</h3>
+
+    <p>
+        Loaded with mushrooms, onions, olives,
+        capsicum and mozzarella cheese.
+    </p>
+
+    <div class="food-info">
+
+        <span><i class="fa-solid fa-star"></i>4.9</span>
+
+        <span><i class="fa-regular fa-clock"></i>21 min</span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹429</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card hidden-card" data-category="dessert">
+
+    <span class="food-badge">
+        SWEET
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/desserts4.png"
+        alt="Blueberry Cheesecake"
+        class="food-image"
+    >
+
+    <h3>Blueberry Cheesecake</h3>
+
+    <p>
+        Creamy baked cheesecake topped with
+        fresh blueberries and sweet syrup.
+    </p>
+
+    <div class="food-info">
+
+        <span><i class="fa-solid fa-star"></i>4.9</span>
+
+        <span><i class="fa-regular fa-clock"></i>10 min</span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹249</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card hidden-card" data-category="drinks">
+
+    <span class="food-badge">
+        FRESH
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/drinks5.png"
+        alt="Mojito"
+        class="food-image"
+    >
+
+    <h3>Mint Mojito</h3>
+
+    <p>
+        Fresh mint, lemon and sparkling soda
+        served chilled with crushed ice.
+    </p>
+
+    <div class="food-info">
+
+        <span><i class="fa-solid fa-star"></i>4.8</span>
+
+        <span><i class="fa-regular fa-clock"></i>8 min</span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹169</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<div class="food-card hidden-card" data-category="healthy">
+
+    <span class="food-badge">
+        ORGANIC
+    </span>
+
+    <button class="wishlist">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <img
+        src="../assets/images/healthy4.png"
+        alt="Protein Bowl"
+        class="food-image"
+    >
+
+    <h3>Protein Power Bowl</h3>
+
+    <p>
+        Quinoa, grilled chicken, avocado,
+        beans and fresh vegetables.
+    </p>
+
+    <div class="food-info">
+
+        <span><i class="fa-solid fa-star"></i>4.9</span>
+
+        <span><i class="fa-regular fa-clock"></i>14 min</span>
+
+    </div>
+
+    <div class="food-bottom">
+
+        <h4>₹299</h4>
+
+        <button class="add-cart">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<div class="load-more">
+
+    <button id="loadMoreBtn">
+
+        <span>Load More Dishes</span>
+
+        <i class="fa-solid fa-arrow-down"></i>
+
+    </button>
+
+</div>
+
+</section>
+
+
+
+<script src="../js/popular.js"></script>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/loader.js"></script>
+</body>
+</html>
+

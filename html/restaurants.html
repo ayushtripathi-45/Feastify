@@ -1,0 +1,1320 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurants | Feastify</title>
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+
+    <link rel="stylesheet" href="../css/popular.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/restaurants.css">
+
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+
+<body>
+
+<div id="preloader">
+
+    <div class="loader-content">
+
+        <div class="burger-loader">
+
+            <img src="../assets/images/burger.png" alt="Burger">
+
+        </div>
+
+        <h1 class="loader-logo">
+
+            Feast<span>ify</span>
+
+        </h1>
+
+        <p>
+
+            Preparing something delicious...
+
+        </p>
+
+        <div class="loading-bar">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="background">
+
+    
+
+    <span class="blob blob1"></span>
+    <span class="blob blob2"></span>
+    <span class="blob blob3"></span>
+    <span class="blob blob4"></span>
+
+    
+
+    <div class="particles">
+
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+
+    </div>
+
+    
+
+    <div class="grid"></div>
+
+</div>
+
+<header>
+
+    
+
+    <nav class="navbar">
+
+        
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">🍽</span>
+
+            <span class="logo-text">
+                Feast<span>ify</span>
+            </span>
+
+        </a>
+
+        
+
+        <ul class="nav-links">
+
+            <li>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="menu.html">
+                    Menu
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="restaurants.html" class="active">
+                    Restaurants
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="offers.html">
+                    Offers
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </li>
+
+        </ul>
+
+        
+
+        <div class="nav-right">
+
+            <a href="login.html" class="login-btn">Login</a>
+
+            <a href="cart.html" class="cart-btn">
+            🛒 <span>02</span>
+            </a>
+
+            
+
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<section class="popular-hero">
+
+    <div class="hero-container">
+
+        
+
+        <div class="hero-left">
+
+            <div class="hero-badge">
+
+                <span class="badge-dot"></span>
+
+                ?x₹₹ Curated Kitchens
+
+            </div>
+
+            <h1>
+
+                Discover
+
+                <span>Top Restaurants</span>
+
+            </h1>
+
+            <p>
+
+                Explore hand-picked restaurants across your city —
+                from sizzling burger joints to artisan pizzerias.
+                Browse menus, check live ratings, and order your
+                next favourite meal in just a few taps.
+
+            </p>
+
+            
+
+            <div class="hero-search">
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="searchRestaurant"
+                        placeholder="Search restaurants, cuisines..."
+                    >
+
+                </div>
+
+                <button class="search-btn">
+
+                    Search
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+            
+
+            <div class="hero-stats">
+
+                <div class="stat-card">
+
+                    <h3>320+</h3>
+
+                    <span>Partner Restaurants</span>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h3>4.8₹₹&</h3>
+
+                    <span>Avg. Rating</span>
+
+                </div>
+
+                <div class="stat-card">
+
+                    <h3>20 min</h3>
+
+                    <span>Avg. Delivery</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="hero-right">
+
+            
+
+            <div class="hero-circle">
+
+                <img
+                    src="../assets/images/burger.png"
+                    alt="Premium Burger"
+                    class="main-food"
+                >
+
+            </div>
+
+            
+
+            <div class="floating-card card1">
+
+                <img
+                    src="../assets/images/pizza.png"
+                    alt="Pizza"
+                >
+
+                <div class="card-content">
+
+                    <h4>Pizzaiolo</h4>
+
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        4.9 Rating
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="floating-card card2">
+
+                <img
+                    src="../assets/images/chicken.png"
+                    alt="Chicken"
+                >
+
+                <div class="card-content">
+
+                    <h4>Tandoori Flame</h4>
+
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        18 min
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="floating-card card3">
+
+                <img
+                    src="../assets/images/juice.png"
+                    alt="Fresh Juice"
+                >
+
+                <div class="card-content">
+
+                    <h4>Tropical Juice Co</h4>
+
+                    <span>
+                        <i class="fa-solid fa-leaf"></i>
+                        100% Natural
+                    </span>
+
+                </div>
+
+            </div>
+
+            
+
+            <div class="hero-glow"></div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="scroll-indicator">
+
+        <span>
+            Scroll to Explore
+        </span>
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </div>
+
+</section>
+
+<section class="category-section">
+
+    <div class="section-heading reveal">
+
+        <span class="section-tag">
+            EXPLORE KITCHENS
+        </span>
+
+        <h2>
+
+            Browse By
+
+            <span>Cuisine</span>
+
+        </h2>
+
+        <p>
+
+            Pick a cuisine and instantly discover the most loved
+            restaurants serving it across your city.
+
+        </p>
+
+    </div>
+
+    
+
+    <div class="food-categories reveal">
+
+        <button class="food-filter active"
+                data-filter="all">
+
+            <i class="fa-solid fa-utensils"></i>
+
+            <span>All</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="burger">
+
+            <i class="fa-solid fa-burger"></i>
+            <span>Burgers</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="pizza">
+
+            <i class="fa-solid fa-pizza-slice"></i>
+            <span>Pizza</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="chicken">
+
+            <i class="fa-solid fa-drumstick-bite"></i>
+            <span>Chicken</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="pasta">
+
+            🍝
+
+            <span>Pasta</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="healthy">
+
+            🥗
+
+            <span>Healthy</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="drinks">
+
+            🥤
+
+            <span>Drinks</span>
+
+        </button>
+
+        <button class="food-filter"
+                data-filter="dessert">
+
+            🍰
+
+            <span>Desserts</span>
+
+        </button>
+
+    </div>
+
+    
+
+    <div class="category-info reveal">
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-fire"></i>
+            <div>
+                <h4>Trending Now</h4>
+                <span>120+ Open Kitchens</span>
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-star"></i>
+            <div>
+                <h4>Top Rated</h4>
+                <span>4.8₹₹& & Above</span>
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-bolt"></i>
+            <div>
+                <h4>Fast Delivery</h4>
+                <span>15–25 Minutes</span>
+            </div>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-tag"></i>
+            <div>
+                <h4>Daily Offers</h4>
+                <span>Up to 50% OFF</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="restaurant-section">
+
+    <div class="food-grid" id="restaurantGrid">
+
+        
+
+        <div class="restaurant-card" data-category="burger">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/burger2.png" alt="Burger Barn" class="rest-cover-img">
+
+                <span class="rest-offer">50% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/burger.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Burger Barn</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>American</span>
+                    <span>Burgers</span>
+                    <span>Fast Food</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 18 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 1.2 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/burger3.png" alt="">
+                    <img src="../assets/images/burger4.png" alt="">
+                    <img src="../assets/images/burger5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="pizza">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/pizza2.png" alt="Pizzaiolo" class="rest-cover-img">
+
+                <span class="rest-offer">FREE DELIVERY</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/pizza.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Pizzaiolo</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Italian</span>
+                    <span>Pizza</span>
+                    <span>Wood-fired</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 22 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 2.4 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/pizza3.png" alt="">
+                    <img src="../assets/images/pizza4.png" alt="">
+                    <img src="../assets/images/pizza5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="chicken">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/chicken.png" alt="Tandoori Flame" class="rest-cover-img">
+
+                <span class="rest-offer">40% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/chicken.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Tandoori Flame</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.7</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Indian</span>
+                    <span>Chicken</span>
+                    <span>Spicy</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 20 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 3.1 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/chicken.png" alt="">
+                    <img src="../assets/images/burger2.png" alt="">
+                    <img src="../assets/images/pizza2.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="pasta">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/pasta2.png" alt="Pasta Positano" class="rest-cover-img">
+
+                <span class="rest-offer">BOGO</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/pasta.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Pasta Positano</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Italian</span>
+                    <span>Pasta</span>
+                    <span>Cheesy</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 19 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 1.8 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/pasta3.png" alt="">
+                    <img src="../assets/images/pasta4.png" alt="">
+                    <img src="../assets/images/pasta5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="healthy">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/healthy2.png" alt="Green Bowl" class="rest-cover-img">
+
+                <span class="rest-offer">30% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/healthy.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Green Bowl</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Healthy</span>
+                    <span>Salads</span>
+                    <span>Vegan</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 15 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 0.9 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/healthy3.png" alt="">
+                    <img src="../assets/images/healthy4.png" alt="">
+                    <img src="../assets/images/healthy5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="drinks">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/drinks2.png" alt="Tropical Juice Co" class="rest-cover-img">
+
+                <span class="rest-offer">BUY 1 GET 1</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/drinks.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Tropical Juice Co</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Beverages</span>
+                    <span>Juices</span>
+                    <span>Shakes</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 10 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 1.5 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/drinks3.png" alt="">
+                    <img src="../assets/images/drinks4.png" alt="">
+                    <img src="../assets/images/drinks5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="dessert">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/desserts.png" alt="Sweet Cravings" class="rest-cover-img">
+
+                <span class="rest-offer">20% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/desserts.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Sweet Cravings</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Desserts</span>
+                    <span>Bakery</span>
+                    <span>Sweets</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 12 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 2.0 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/desserts1.png" alt="">
+                    <img src="../assets/images/desserts2.png" alt="">
+                    <img src="../assets/images/desserts3.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card" data-category="burger">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/burger4.png" alt="Urban Bites" class="rest-cover-img">
+
+                <span class="rest-offer">COMBO ₹99</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/burger1.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Urban Bites</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.7</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Street</span>
+                    <span>Burgers</span>
+                    <span>Snacks</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 16 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 2.7 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/burger1.png" alt="">
+                    <img src="../assets/images/burger3.png" alt="">
+                    <img src="../assets/images/burger5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="restaurant-card hidden-rest" data-category="pizza">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/pizza4.png" alt="Napoli Express" class="rest-cover-img">
+
+                <span class="rest-offer">25% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/pizza1.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Napoli Express</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Italian</span>
+                    <span>Pizza</span>
+                    <span>Garlic</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 21 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 3.5 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/pizza1.png" alt="">
+                    <img src="../assets/images/pizza2.png" alt="">
+                    <img src="../assets/images/pizza3.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="restaurant-card hidden-rest" data-category="healthy">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/healthy4.png" alt="Protein House" class="rest-cover-img">
+
+                <span class="rest-offer">15% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/healthy1.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Protein House</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Healthy</span>
+                    <span>Keto</span>
+                    <span>Fit</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 14 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 1.1 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/healthy1.png" alt="">
+                    <img src="../assets/images/healthy2.png" alt="">
+                    <img src="../assets/images/healthy3.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="restaurant-card hidden-rest" data-category="dessert">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/desserts4.png" alt="Velvet Bakery" class="rest-cover-img">
+
+                <span class="rest-offer">FREE GIFT</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/desserts1.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Velvet Bakery</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.9</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Desserts</span>
+                    <span>Cakes</span>
+                    <span>Pastry</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 10 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 2.2 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/desserts2.png" alt="">
+                    <img src="../assets/images/desserts3.png" alt="">
+                    <img src="../assets/images/desserts5.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="restaurant-card hidden-rest" data-category="drinks">
+
+            <div class="rest-cover">
+
+                <img src="../assets/images/drinks4.png" alt="Frosty Bar" class="rest-cover-img">
+
+                <span class="rest-offer">30% OFF</span>
+
+                <div class="rest-logo">
+                    <img src="../assets/images/drinks1.png" alt="Logo">
+                </div>
+
+            </div>
+
+            <div class="rest-body">
+
+                <div class="rest-title">
+
+                    <h3>Frosty Bar</h3>
+                    <span class="rest-rating"><i class="fa-solid fa-star"></i> 4.8</span>
+
+                </div>
+
+                <div class="rest-tags">
+                    <span>Beverages</span>
+                    <span>Shakes</span>
+                    <span>Cold</span>
+                </div>
+
+                <div class="rest-meta">
+
+                    <span><i class="fa-regular fa-clock"></i> 8 min</span>
+                    <span><i class="fa-solid fa-location-dot"></i> 1.4 km</span>
+                    <span><i class="fa-solid fa-dollar-sign"></i> ₹</span>
+
+                </div>
+
+                <div class="rest-dishes">
+
+                    <img src="../assets/images/drinks1.png" alt="">
+                    <img src="../assets/images/drinks2.png" alt="">
+                    <img src="../assets/images/drinks3.png" alt="">
+
+                </div>
+
+                <a href="menu.html" class="rest-btn">
+
+                    View Menu
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="load-more">
+
+        <button id="loadMoreRest">
+
+            <span>Load More Restaurants</span>
+            <i class="fa-solid fa-arrow-down"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+<section class="home-section">
+
+    <div class="cta-box reveal">
+
+        <h2>Own a Restaurant?</h2>
+        <p>Partner with Feastify and reach thousands of hungry customers every day.</p>
+        <a href="contact.html">Become a Partner <i class="fa-solid fa-arrow-right"></i></a>
+
+    </div>
+
+</section>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+
+            <span class="logo-text">Feast<span>ify</span></span>
+            <p>Your everyday food companion — fresh, fast and full of flavour, delivered hot to your doorstep.</p>
+
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="popular.html">Popular</a>
+            <a href="restaurants.html" class="active">Restaurants</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Explore</h4>
+            <a href="offer.html">Offers</a>
+            <a href="cart.html">Cart</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Support</h4>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        &copy; 2024 Feastify. All rights reserved. Made with ❤️ for food lovers.
+
+    </div>
+
+</footer>
+
+<script src="../js/restaurants.js"></script>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/loader.js"></script>
+</body>
+</html>
+

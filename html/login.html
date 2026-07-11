@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login & Sign Up | Feastify</title>
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+
+    <link rel="stylesheet" href="../css/popular.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <link rel="stylesheet" href="../css/loader.css">
+</head>
+
+<body>
+
+<div id="preloader">
+
+    <div class="loader-content">
+
+        <div class="burger-loader">
+
+            <img src="../assets/images/burger.png" alt="Burger">
+
+        </div>
+
+        <h1 class="loader-logo">
+
+            Feast<span>ify</span>
+
+        </h1>
+
+        <p>
+
+            Preparing something delicious...
+
+        </p>
+
+        <div class="loading-bar">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="background">
+
+    <span class="blob blob1"></span>
+    <span class="blob blob2"></span>
+    <span class="blob blob3"></span>
+    <span class="blob blob4"></span>
+
+    <div class="particles">
+
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+        <span class="orb"></span>
+
+    </div>
+
+    <div class="grid"></div>
+
+</div>
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">🍽</span>
+
+            <span class="logo-text">
+                Feast<span>ify</span>
+            </span>
+
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-right">
+
+            <a href="login.html" class="login-btn">Login</a>
+
+            <a href="cart.html" class="cart-btn">
+            🛒 <span>02</span>
+            </a>
+
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<section class="auth-section">
+
+    <div class="auth-card" id="authCard">
+
+        <div class="auth-head">
+
+            <div class="auth-logo">
+
+                <span class="logo-icon">🍽</span>
+                Feast<span>ify</span>
+
+            </div>
+
+            <p class="auth-sub">Your food journey starts here</p>
+
+            
+            <div class="tabs" id="tabs">
+
+                <span class="tab-indicator"></span>
+                <button class="tab active" data-target="login">Login</button>
+                <button class="tab" data-target="signup">Sign Up</button>
+
+            </div>
+
+        </div>
+
+        <div class="auth-forms">
+
+            
+            <form class="auth-form login-form" id="loginForm">
+
+                <div class="field">
+                    <input type="email" id="lEmail" placeholder=" " required>
+                    <label for="lEmail">Email Address</label>
+                </div>
+
+                <div class="field">
+                    <input type="password" id="lPass" placeholder=" " required>
+                    <label for="lPass">Password</label>
+                </div>
+
+                <div class="auth-row">
+                    <label class="remember">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="auth-btn">
+                    <span>Login</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                <div class="divider"><span>or continue with</span></div>
+
+                <div class="social-row">
+                    <button type="button" class="social-btn"><i class="fa-brands fa-google"></i></button>
+                    <button type="button" class="social-btn"><i class="fa-brands fa-facebook-f"></i></button>
+                    <button type="button" class="social-btn"><i class="fa-brands fa-apple"></i></button>
+                </div>
+
+                <p class="switch-text">
+                    New to Feastify? <a href="#" data-mode="signup">Create an account</a>
+                </p>
+
+            </form>
+
+            
+            <form class="auth-form signup-form" id="signupForm">
+
+                <div class="field">
+                    <input type="text" id="sName" placeholder=" " required>
+                    <label for="sName">Full Name</label>
+                </div>
+
+                <div class="field">
+                    <input type="email" id="sEmail" placeholder=" " required>
+                    <label for="sEmail">Email Address</label>
+                </div>
+
+                <div class="field">
+                    <input type="password" id="sPass" placeholder=" " required>
+                    <label for="sPass">Password</label>
+                </div>
+
+                <div class="field">
+                    <input type="password" id="sConfirm" placeholder=" " required>
+                    <label for="sConfirm">Confirm Password</label>
+                </div>
+
+                <button type="submit" class="auth-btn">
+                    <span>Create Account</span>
+                    <i class="fa-solid fa-user-plus"></i>
+                </button>
+
+                <div class="divider"><span>or continue with</span></div>
+
+                <div class="social-row">
+                    <button type="button" class="social-btn"><i class="fa-brands fa-google"></i></button>
+                    <button type="button" class="social-btn"><i class="fa-brands fa-facebook-f"></i></button>
+                    <button type="button" class="social-btn"><i class="fa-brands fa-apple"></i></button>
+                </div>
+
+                <p class="switch-text">
+                    Already have an account? <a href="#" data-mode="login">Log in instead</a>
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="site-footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            <span class="logo-text">Feast<span>ify</span></span>
+            <p>Your everyday food companion — fresh, fast and full of flavour, delivered hot to your doorstep.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="popular.html">Popular</a>
+            <a href="restaurants.html">Restaurants</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="offers.html">Offers</a>
+            <a href="cart.html">Cart</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Support</h4>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="active">Login</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        &copy; 2024 Feastify. All rights reserved. Made with ❤️ for food lovers.
+    </div>
+
+</footer>
+
+<script src="../js/login.js"></script>
+
+    <script src="../js/cart.js"></script>
+    <script src="../js/loader.js"></script>
+</body>
+</html>
+

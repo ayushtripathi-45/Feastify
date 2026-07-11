@@ -1,0 +1,542 @@
+
+
+
+
+@media (max-width:1400px){
+
+    .hero{
+
+        width:92%;
+
+        gap:50px;
+
+    }
+
+    .hero-image{
+
+        width:500px;
+        height:500px;
+
+    }
+
+    .main-food{
+
+        width:100%;
+
+    }
+
+}
+
+
+
+@media (max-width:1200px){
+
+    .navbar{
+
+        width:94%;
+
+        padding:0 25px;
+
+    }
+
+    .nav-links{
+
+        gap:28px;
+
+    }
+
+    .hero{
+
+        gap:40px;
+
+    }
+
+    .hero-left{
+
+        max-width:560px;
+
+    }
+
+    .hero h1{
+
+        font-size:clamp(3.6rem,6vw,5rem);
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+    }
+
+    .hero-image{
+
+        width:440px;
+        height:440px;
+
+    }
+
+    .floating-card{
+
+        transform:scale(.9);
+
+    }
+
+}
+
+
+
+@media (max-width:992px){
+
+    .navbar{
+
+        height:72px;
+
+    }
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        justify-content:center;
+
+        gap:60px;
+
+        padding-top:140px;
+
+        padding-bottom:80px;
+
+    }
+
+    .hero-left{
+
+        max-width:700px;
+
+        align-items:center;
+
+    }
+
+    .hero h1{
+
+        line-height:1;
+
+        letter-spacing:-2px;
+
+    }
+
+    .hero p{
+
+        max-width:650px;
+
+    }
+
+    .hero-search{
+
+        width:100%;
+
+        max-width:650px;
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .search-box{
+
+        width:100%;
+
+    }
+
+    .location-box{
+
+        width:100%;
+
+    }
+
+    .location-box select{
+
+        width:100%;
+
+    }
+
+    .search-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .hero-right{
+
+        width:100%;
+
+    }
+
+    .hero-image{
+
+        width:420px;
+
+        height:420px;
+
+    }
+
+    .floating-card{
+
+        transform:scale(.9);
+
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    header{
+
+        top:15px;
+
+    }
+
+    .navbar{
+
+        width:94%;
+
+        padding:0 18px;
+
+        border-radius:18px;
+
+    }
+
+    .logo-text{
+
+        font-size:24px;
+
+    }
+
+    .login-btn{
+
+        display:none;
+
+    }
+
+    .cart-btn{
+
+        padding:10px 18px;
+
+    }
+
+    .hero{
+
+        padding-top:120px;
+
+        gap:45px;
+
+    }
+
+    .hero h1{
+
+        font-size:3.2rem;
+
+        letter-spacing:-2px;
+
+    }
+
+    .hero p{
+
+        font-size:17px;
+
+        line-height:1.8;
+
+    }
+
+    .hero-badge{
+
+        font-size:13px;
+
+        padding:12px 18px;
+
+    }
+
+    .hero-image{
+
+        width:340px;
+
+        height:340px;
+
+    }
+
+    .main-food{
+
+        width:100%;
+
+    }
+
+    .floating-card{
+
+        padding:12px;
+
+        transform:scale(.75);
+
+    }
+
+    .floating-card img{
+
+        width:45px;
+
+    }
+
+    .stats-card{
+
+        padding:18px 24px;
+
+    }
+
+    .stats-card h2{
+
+        font-size:30px;
+
+    }
+
+}
+
+
+
+@media (max-width:576px){
+
+    .hero{
+
+        width:94%;
+
+    }
+
+    .hero h1{
+
+        font-size:2.7rem;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .hero-search{
+
+        padding:12px;
+
+        border-radius:20px;
+
+    }
+
+    .search-box{
+
+        padding:0;
+
+    }
+
+    .search-box input{
+
+        font-size:15px;
+
+    }
+
+    .location-box{
+
+        padding:12px 15px;
+
+    }
+
+    .search-btn{
+
+        padding:15px;
+
+        font-size:15px;
+
+    }
+
+    .hero-image{
+
+        width:290px;
+
+        height:290px;
+
+    }
+
+    .floating-card{
+
+        display:none;
+
+    }
+
+    .stats-card{
+
+        right:0;
+
+        bottom:-15px;
+
+        padding:16px 22px;
+
+    }
+
+}
+
+@media (max-width:992px){
+    header{
+        padding:16px 4%;
+    }
+
+    .navbar{
+        min-height:68px;
+        padding:12px 18px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .nav-right{
+        gap:10px;
+    }
+
+    .popular-hero .hero-container,
+    .menu-hero .menu-content,
+    .contact-hero .contact-hero-inner,
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+        gap:30px;
+    }
+
+    .popular-hero .hero-left,
+    .popular-hero .hero-right,
+    .hero-left,
+    .hero-right,
+    .menu-hero .menu-content,
+    .contact-hero .contact-hero-inner{
+        max-width:100%;
+        padding-left:0;
+        align-items:center;
+    }
+
+    .site-footer{
+        padding:48px 18px 24px;
+    }
+
+    .footer-inner{
+        grid-template-columns:1fr 1fr;
+        gap:24px;
+    }
+}
+
+@media (max-width:768px){
+    .navbar{
+        width:100%;
+        padding:12px 14px;
+    }
+
+    .logo-text{
+        font-size:22px;
+    }
+
+    .cart-btn{
+        width:48px;
+        height:48px;
+        padding:0;
+    }
+
+    .hero,
+    .popular-hero,
+    .menu-hero,
+    .contact-hero{
+        padding-top:120px;
+    }
+
+    .hero h1,
+    .popular-hero h1,
+    .contact-hero h1,
+    .menu-hero h1{
+        font-size:clamp(2.4rem, 7vw, 3.4rem);
+    }
+
+    .hero-search,
+    .hero-search input,
+    .hero-search select{
+        font-size:15px;
+    }
+
+    .footer-inner{
+        grid-template-columns:1fr;
+    }
+}
+
+@media (max-width:576px){
+    .navbar{
+        border-radius:16px;
+    }
+
+    .hero,
+    .popular-hero,
+    .menu-hero,
+    .contact-hero{
+        width:94%;
+        padding-top:110px;
+    }
+
+    .hero-left,
+    .hero-right,
+    .popular-hero .hero-left,
+    .popular-hero .hero-right{
+        gap:20px;
+    }
+
+    .hero-badge,
+    .hero-search,
+    .search-btn,
+    .location-box,
+    .cta-box{
+        width:100%;
+    }
+
+    .hero-search{
+        padding:12px;
+        gap:12px;
+    }
+
+    .search-box input{
+        font-size:14px;
+    }
+
+    .location-box select{
+        font-size:14px;
+    }
+
+    .home-section{
+        padding:0 16px;
+        margin:70px auto;
+    }
+
+    .section-head h2{
+        font-size:1.7rem;
+    }
+
+    .cta-box{
+        padding:30px 18px;
+    }
+
+    .footer-social{
+        flex-wrap:wrap;
+    }
+}
