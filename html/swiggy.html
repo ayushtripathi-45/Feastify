@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Swiggy | Feastify</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/popular.css">
+    <link rel="stylesheet" href="../css/brand.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/loader.css">
+
+    <style>
+        body.swiggy-theme {
+            --brand: #FC8019;
+            --brand-2: #FF9A3D;
+            --brand-soft: rgba(252, 128, 25, .15);
+        }
+    </style>
+</head>
+
+<body class="swiggy-theme">
+
+
+
+<div id="preloader">
+
+    <div class="loader-content">
+
+        <div class="burger-loader">
+
+            <img src="../assets/images/burger.png" alt="Burger">
+
+        </div>
+
+        <h1 class="loader-logo">
+
+            Feast<span>ify</span>
+
+        </h1>
+
+        <p>
+
+            Preparing something delicious...
+
+        </p>
+
+        <div class="loading-bar">
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div class="background">
+
+    <span class="blob blob1"></span>
+    <span class="blob blob2"></span>
+    <span class="blob blob3"></span>
+    <span class="blob blob4"></span>
+
+    <div class="grid"></div>
+
+</div>
+
+
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">🍽</span>
+
+            <span class="logo-text">
+
+                Feast<span>ify</span>
+
+            </span>
+
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="menu.html">Menu</a></li>
+
+            <li><a href="restaurants.html">Restaurants</a></li>
+
+            <li><a href="offers.html">Offers</a></li>
+
+            <li><a href="zomato.html">Zomato</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+        <div class="nav-right">
+
+            <a href="login.html" class="login-btn">Login</a>
+
+            <a href="cart.html" class="cart-btn">
+
+                🛒 <span>02</span>
+
+            </a>
+
+            <button class="menu-toggle">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<section class="brand-hero">
+
+    <div class="brand-logo">
+
+        <i class="fa-solid fa-bag-shopping"></i>
+
+        Swiggy
+
+    </div>
+
+    <p>
+
+        Explore handpicked dishes inspired by Swiggy's most loved
+        restaurants. Browse the curated categories below and tap
+        <strong>View All</strong> to discover the full menu on Swiggy.
+
+    </p>
+
+    <div class="brand-cta">
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="primary">
+
+            Order on Swiggy <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+        <a href="zomato.html" class="ghost">
+
+            Visit Zomato Page <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">BURGERS</span>
+
+        <h2>Burgers <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="burger">
+
+            <span class="food-badge">• Popular</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/burger1.png" alt="Classic Veggie Burger" class="food-image">
+
+            <h3>Classic Veggie Burger</h3>
+
+            <p>Crisp veggies and cheese in a toasted bun.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.5</span>
+
+                <span><i class="fa-regular fa-clock"></i>17 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹199</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="burger">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/burger3.png" alt="Mushroom Swiss Burger" class="food-image">
+
+            <h3>Mushroom Swiss Burger</h3>
+
+            <p>Juicy patty with melted Swiss and mushrooms.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.6</span>
+
+                <span><i class="fa-regular fa-clock"></i>19 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹279</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="burger">
+
+            <span class="food-badge">🔥 Bestseller</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/burger5.png" alt="Double Cheese Burger" class="food-image">
+
+            <h3>Double Cheese Burger</h3>
+
+            <p>Premium grilled beef with fresh vegetables.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.7</span>
+
+                <span><i class="fa-regular fa-clock"></i>18 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹329</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="burger">
+
+            <span class="food-badge">Bestseller</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/burger.png" alt="Cheese Burger" class="food-image">
+
+            <h3>Cheese Burger</h3>
+
+            <p>Double grilled beef with cheddar cheese.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>18 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹249</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">PIZZA</span>
+
+        <h2>Pizza <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="pizza">
+
+            <span class="food-badge">🔥 Bestseller</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pizza1.png" alt="Pepperoni Pizza" class="food-image">
+
+            <h3>Pepperoni Pizza</h3>
+
+            <p>Wood-fired pizza loaded with pepperoni.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>21 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹399</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="pizza">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pizza3.png" alt="Veggie Supreme" class="food-image">
+
+            <h3>Veggie Supreme</h3>
+
+            <p>Loaded with fresh veggies and Italian herbs.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>22 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹329</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="pizza">
+
+            <span class="food-badge">CHEF'S PICK</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pizza5.png" alt="Truffle Mushroom Pizza" class="food-image">
+
+            <h3>Truffle Mushroom Pizza</h3>
+
+            <p>Earthy truffle with roasted mushrooms.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>23 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹459</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="pizza">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pizza.png" alt="Italian Pizza" class="food-image">
+
+            <h3>Italian Pizza</h3>
+
+            <p>Wood-fired pizza loaded with mozzarella.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>22 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹399</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">PASTA</span>
+
+        <h2>Pasta <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="pasta">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pasta2.png" alt="Chicken Carbonara" class="food-image">
+
+            <h3>Chicken Carbonara</h3>
+
+            <p>Creamy egg sauce with grilled chicken.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.7</span>
+
+                <span><i class="fa-regular fa-clock"></i>20 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹299</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="pasta">
+
+            <span class="food-badge">• Popular</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pasta4.png" alt="Classic Lasagna" class="food-image">
+
+            <h3>Classic Lasagna</h3>
+
+            <p>Layered pasta with rich meat sauce.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>22 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹349</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="pasta">
+
+            <span class="food-badge">CHEF'S PICK</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pasta5.png" alt="Four Cheese Pasta" class="food-image">
+
+            <h3>Four Cheese Pasta</h3>
+
+            <p>Blend of four Italian cheeses.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>19 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹329</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="pasta">
+
+            <span class="food-badge">Popular</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/pasta.png" alt="Creamy Alfredo Pasta" class="food-image">
+
+            <h3>Creamy Alfredo Pasta</h3>
+
+            <p>Rich parmesan cream with Italian herbs.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>19 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹279</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">HEALTHY</span>
+
+        <h2>Healthy <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="healthy">
+
+            <span class="food-badge new">ORGANIC</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/healthy1.png" alt="Quinoa Power Bowl" class="food-image">
+
+            <h3>Quinoa Power Bowl</h3>
+
+            <p>Protein-packed quinoa with veggies.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.7</span>
+
+                <span><i class="fa-regular fa-clock"></i>15 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹259</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="healthy">
+
+            <span class="food-badge">• Popular</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/healthy3.png" alt="Greek Yogurt Bowl" class="food-image">
+
+            <h3>Greek Yogurt Bowl</h3>
+
+            <p>Yogurt with berries and honey.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.6</span>
+
+                <span><i class="fa-regular fa-clock"></i>13 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹219</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="healthy">
+
+            <span class="food-badge new">HEALTHY</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/healthy5.png" alt="Protein Veggie Bowl" class="food-image">
+
+            <h3>Protein Veggie Bowl</h3>
+
+            <p>Roasted veggies with tofu.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>16 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹279</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="healthy">
+
+            <span class="food-badge">HEALTHY</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/healthy.png" alt="Garden Salad Bowl" class="food-image">
+
+            <h3>Garden Salad Bowl</h3>
+
+            <p>Fresh greens with light vinaigrette.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>15 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹229</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">DRINKS</span>
+
+        <h2>Drinks <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="drinks">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/drinks1.png" alt="Mango Smoothie" class="food-image">
+
+            <h3>Mango Smoothie</h3>
+
+            <p>Thick mango blended with milk.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>9 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹149</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="drinks">
+
+            <span class="food-badge">FRESH</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/drinks3.png" alt="Berry Mojito" class="food-image">
+
+            <h3>Berry Mojito</h3>
+
+            <p>Mint and mixed berries mocktail.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.6</span>
+
+                <span><i class="fa-regular fa-clock"></i>8 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹139</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="drinks">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/drinks5.png" alt="Iced Tea" class="food-image">
+
+            <h3>Iced Tea</h3>
+
+            <p>Refreshing peach iced tea.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.5</span>
+
+                <span><i class="fa-regular fa-clock"></i>7 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹109</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="drinks">
+
+            <span class="food-badge">FRESH</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/drinks.png" alt="Fresh Lime Soda" class="food-image">
+
+            <h3>Fresh Lime Soda</h3>
+
+            <p>Zesty lime with sparkling water.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.5</span>
+
+                <span><i class="fa-regular fa-clock"></i>8 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹99</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="category-section">
+
+    <div class="section-heading">
+
+        <span class="section-tag">DESSERTS</span>
+
+        <h2>Desserts <span>Collection</span></h2>
+
+        <a href="https://www.swiggy.com" target="_blank" rel="noopener" class="view-all-link">
+
+            View All <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+    <div class="food-grid">
+
+        <div class="food-card" data-category="dessert">
+
+            <span class="food-badge new">NEW</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/desserts2.png" alt="Strawberry Pastry" class="food-image">
+
+            <h3>Strawberry Pastry</h3>
+
+            <p>Flaky pastry with strawberry cream.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.7</span>
+
+                <span><i class="fa-regular fa-clock"></i>11 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹179</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="dessert">
+
+            <span class="food-badge">SWEET</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/desserts3.png" alt="Gulab Jamun" class="food-image">
+
+            <h3>Gulab Jamun</h3>
+
+            <p>Warm syrupy milk dumplings.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.8</span>
+
+                <span><i class="fa-regular fa-clock"></i>10 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹129</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+        <div class="food-card" data-category="dessert">
+
+            <span class="food-badge">CHEF'S PICK</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/desserts5.png" alt="Fruit Tart" class="food-image">
+
+            <h3>Fruit Tart</h3>
+
+            <p>Buttery tart with fresh fruits.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.6</span>
+
+                <span><i class="fa-regular fa-clock"></i>12 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹189</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+
+        <div class="food-card" data-category="dessert">
+
+            <span class="food-badge">CHEF'S PICK</span>
+
+            <button class="wishlist"><i class="fa-regular fa-heart"></i></button>
+
+            <img src="../assets/images/desserts.png" alt="Chocolate Lava Cake" class="food-image">
+
+            <h3>Chocolate Lava Cake</h3>
+
+            <p>Gooey molten chocolate centre.</p>
+
+            <div class="food-info">
+
+                <span><i class="fa-solid fa-star"></i>4.9</span>
+
+                <span><i class="fa-regular fa-clock"></i>12 min</span>
+
+            </div>
+
+            <div class="food-bottom"><h4>₹199</h4><button class="add-cart"><i class="fa-solid fa-plus"></i></button></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<footer class="site-footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="footer-logo">🍽 Feast<span>ify</span></a>
+
+            <p>Your premium food delivery partner. Explore curated dishes and order from your favorite brands in just a few taps.</p>
+
+            <div class="footer-social">
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Explore</h4>
+            <a href="menu.html">Menu</a>
+            <a href="restaurants.html">Restaurants</a>
+            <a href="offers.html">Offers</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Order From</h4>
+            <a href="swiggy.html">Swiggy Page</a>
+            <a href="zomato.html">Zomato Page</a>
+            <a href="https://www.swiggy.com" target="_blank" rel="noopener">swiggy.com</a>
+            <a href="https://www.zomato.com" target="_blank" rel="noopener">zomato.com</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>Account</h4>
+            <a href="login.html">Login</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Help Center</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 Feastify. Crafted with ❤ for food lovers.</p>
+        <p>Tap <strong>View All</strong> on any category to explore more on Swiggy.</p>
+
+    </div>
+
+</footer>
+
+
+
+<script src="../js/cart.js"></script>
+<script src="../js/loader.js"></script>
+<script>
+    document.querySelectorAll('.category-section').forEach(function (el, i) {
+        el.style.animationDelay = (0.15 + i * 0.12) + 's';
+    });
+</script>
+</body>
+
+</html>
