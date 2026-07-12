@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200">
+  <defs>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22C55E">
+        <animate attributeName="stop-color" values="#22C55E;#06B6D4;#8B5CF6;#22C55E" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#8B5CF6;#22C55E;#06B6D4" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="200" fill="#0F1419"/>
+
+  <g font-family="'Segoe UI', Sora, Arial, sans-serif" text-anchor="middle">
+    <text x="480" y="95" font-size="64" font-weight="800" fill="url(#roadGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0 -4; 0 4; 0 -4" dur="3.6s" repeatCount="indefinite"/>
+      🚀 Future Roadmap
+    </text>
+
+    <text x="480" y="140" font-size="22" font-weight="500" fill="#94A3B8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+      Phased plan to evolve Feastify into a full food‑delivery platform
+    </text>
+  </g>
+
+  <circle cx="160" cy="60" r="5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="150" r="5" fill="#8B5CF6">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

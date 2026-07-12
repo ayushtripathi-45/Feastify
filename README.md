@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ayushtripathi-45/Feastify"><img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status"/></a>
+  <a href="https://feastify-food-delivery.netlify.app"><img src="https://img.shields.io/badge/Live%20Demo-feastify--food--delivery.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo"/></a>
   <a href="https://github.com/ayushtripathi-45/Feastify"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></a>
   <a href="https://github.com/ayushtripathi-45/Feastify"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></a>
   <a href="https://github.com/ayushtripathi-45/Feastify"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
@@ -14,6 +15,10 @@
 
 <p align="center">
   <b>A modern, animated front-end food delivery experience featuring dedicated <span style="color:#E23744">Zomato</span> & <span style="color:#FC8019">Swiggy</span> reference pages.</b>
+</p>
+
+<p align="center">
+  🌐 <b>Live Demo:</b> <a href="https://feastify-food-delivery.netlify.app">feastify-food-delivery.netlify.app</a>
 </p>
 
 ---
@@ -117,7 +122,36 @@ python -m http.server 5500
 
 ## 🗺️ Future Increments & Enhancements
 
-Planned improvements to take Feastify to the next level:
+<p align="center">
+  <img src="assets/roadmap-banner.svg" alt="Future Roadmap" width="960"/>
+</p>
+
+Planned improvements to take Feastify to the next level, visualized as a phased roadmap:
+
+```mermaid
+flowchart LR
+    A([🌟 Today<br/>Static UI]) --> B([⚡ Phase 1<br/>Interactivity])
+    B --> C([🔌 Phase 2<br/>Data & APIs])
+    C --> D([🚀 Phase 3<br/>Platform])
+
+    B -.-> B1[Search & Filters]
+    B -.-> B2[Persistent Cart]
+    B -.-> B3[Theme Toggle]
+    B -.-> B4[Lazy Images]
+
+    C -.-> C1[Live Zomato/Swiggy APIs]
+    C -.-> C2[User Accounts]
+    C -.-> C3[Order Tracking]
+    C -.-> C4[Wishlist & Favorites]
+
+    D -.-> D1[PWA & Offline]
+    D -.-> D2[i18n / Multi-language]
+    D -.-> D3[React / Vue Migration]
+    D -.-> D4[A11y & Scroll Animations]
+```
+
+<details open>
+<summary><b>📋 Detailed checklist</b></summary>
 
 - [ ] **Live API integration** with Zomato / Swiggy for real menus, prices & availability.
 - [ ] **Search & smart filters** (price, rating, veg/non-veg, delivery time) on every page.
@@ -133,6 +167,8 @@ Planned improvements to take Feastify to the next level:
 - [ ] **Framework migration** (React / Vue) with component-based architecture.
 - [ ] **Animations upgrade** — scroll-triggered reveals via IntersectionObserver.
 - [ ] **Testimonials & ratings** carousel on the landing page.
+
+</details>
 
 ---
 
