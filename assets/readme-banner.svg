@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E23744">
+        <animate attributeName="stop-color" values="#E23744;#FF5A5F;#FC8019;#FF5A5F;#E23744" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF5A5F">
+        <animate attributeName="stop-color" values="#FF5A5F;#FC8019;#E23744;#FC8019;#FF5A5F" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E23744" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0F1419" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="320" fill="#0F1419"/>
+  <rect width="960" height="320" fill="url(#glow)"/>
+
+  <g font-family="'Segoe UI', Sora, Arial, sans-serif" text-anchor="middle">
+    <text x="480" y="150" font-size="110" font-weight="800" fill="url(#brandGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0 -6; 0 6; 0 -6" dur="4s" repeatCount="indefinite"/>
+      Feastify
+    </text>
+
+    <text x="480" y="208" font-size="30" font-weight="600" fill="#E2E8F0" letter-spacing="2">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
+      PREMIUM FOOD DELIVERY PLATFORM
+    </text>
+
+    <text x="480" y="252" font-size="22" font-weight="500" fill="#94A3B8">
+      Zomato &amp; Swiggy reference experience · crafted with ❤
+    </text>
+  </g>
+
+  <circle cx="120" cy="80" r="6" fill="#E23744">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="840" cy="240" r="6" fill="#FC8019">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="70" r="4" fill="#FF5A5F">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
